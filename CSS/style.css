@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Sriracha&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  font-family: 'Sriracha', cursive;
+}
+#logo{
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo img{
+  width: 46%;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.navlist{
+  /* background-color: black; */
+  width: 70%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.navlist .list-items{
+  display: flex;
+  
+}
+.navlist li{
+  list-style: none;
+padding: 12px 39px;
+}
+.navlist li a{
+text-decoration: none;
+color: white;
+/* border: 2px solid black; */
+border-radius: 22px;
+padding: 9px 14px;
+font-family: 'Sriracha', cursive;
+font-size: 15px;
+}
+.navlist li a:hover{
+  color: black;
+  background-color: white;
+}
+.rightnav{
+  /* background-color: blueviolet; */
+  /* background-color: black; */
+  width: 30%;
+  text-align: right;
+}
+#search{
+  padding: 6px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.background{
+  background: rgb(0, 0, 0, 0.8) url('../Images/background\ .jpeg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.firstSection{
+  height: 700px;
+}
+.main-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 65%;
+}
+.firsthalf{
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.sechalf{
+width: 30%;
+}
+.sechalf img{
+  width: 140%;
+  border: 1px solid white;
+  border-radius: 75px;
+  display: block;
+  margin: auto;
+  border: 2px solid black;
+}
+.text-big{
+  font-size: 45px;
+  margin: 35px 12px;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.text-small{
+font-size: 20px;
+font-family: 'Sriracha', cursive;
+}
+.btn{
+  padding: 8px 20px;
+  margin: 20px 0px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  color: white;
+font-family: 'Sriracha', cursive;
+
+}
+
+.btn:hover{
+  background-color: wheat;
+  color: black;
+border: none
+}
+.bt2{
+margin: 0 22px;
+}
+.btn-small{
+  margin: 12px 12px;
+  vertical-align: middle;
+  padding: 6px 10px;
+}
+.section{
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
+.left{
+  flex-direction: row-reverse;
+}
+.paras{
+  padding: 12px 62px;
+}
+.thumbnail img{
+  width: 85%;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+.contact{
+  color: white;
+  height: 800px;
+  /* background-color: black; */
+}
+.contact h2{
+  text-align: center;
+  padding: 22px;
+  font-size: 45px;
+}
+.form{
+  max-width: 1000px;
+  margin: auto;
+}
+.form-input{
+  margin: 20px 0;
+  padding: 5px 3px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 6px;
+}
+.submit-btn{
+  position: absolute;
+  left: 47%;
+}
+footer{
+  height: 10px;
+  padding: 20px 0;
+  background-color: black;
+  text-align: center;
+  color: white;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+.burger{
+border: 2px solid white;
+border-radius: 5px;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+display: none;
+}
+.line{
+  width: 33px;
+  background-color: white;
+  height: 3px;
+  margin: 3px 3px;
+
+}

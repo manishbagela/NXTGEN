@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1240px){
+  .navlist{
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .list-items{
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo{
+    padding-top: 23px;
+    /* padding-right: 4px; */
+  }
+  .rightnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #search{
+    width: 50vw;
+    height: 6vh;
+  }
+  .btn-small{
+    height: 11vh;
+  }
+  .burger{
+    display: block;
+  }
+  .h-nav{
+    height: 75px;
+  }
+  .v-class{
+    opacity: 0;
+  }
+}
