@@ -185,8 +185,8 @@ margin: 0 22px;
   /* background: none; */
 }
 footer{
-  height: 10px;
-  padding: 20px 0;
+  height: 20px;
+  padding: 10px 0 30px 0;
   background-color: black;
   text-align: center;
   color: white;
@@ -224,4 +224,13 @@ display: none;
   border: 2px solid black;
   border-radius: 20px;
   height: 500px;
+}
+
+#biking {
+  background-color: rgb(214, 241, 214);
+}
+
+.mycard {
+ 
+  border-radius: 15px;
 }
