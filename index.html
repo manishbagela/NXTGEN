@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/responsive.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <title>Contoso Sports</title>
 </head>
 
@@ -17,16 +19,13 @@
       
       <div class="list-items">
 
-        <li><a href="#home">Plan a Bike Trip</a></li>
-        <li><a href="#calorie-tracker">Calorie Tracker</a></li>
-        <li><a href="#step-counter">Step Counter</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#biking">Plan a Bike Trip</a></li>
         <li><a href="#news">Sports News</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+
       </div>
     </ul>
-    <div class="rightnav v-class">
-      <input type="text" name="search" id="search">
-      <button class="btn btn-small">Search</button>
-    </div>
     <div class="burger">
       <div class="line"></div>
       <div class="line"></div>
@@ -36,34 +35,103 @@
   <section class="background firstSection">
     <div class="main-box">
       <div class="firsthalf">
-        <p class="text-big">
-          Advancing the Future of Fitness & Sports
+        <p class="text-big text-center">
+          CONTOSO SPORTS
         </p>
-        <p class="text-small">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum dolore provident magni dicta, aliquid
-          quos, repellendus voluptas, sint nesciunt hic suscipit sapiente labore consequuntur.
+        <p class="text-small text-center">
+          Bringing the blend of fitness & adventure to your door!!
         </p>
-        <div class="buttons">
+        <!-- <div class="buttons">
           <button class="btn bt1">Subscribe</button>
           <button class="btn bt2">Watch video</button>
-        </div>
+        </div> -->
       </div>
       <!-- <div class="sechalf">
         <img src="Images/laptop.jpg" alt="laptop image">
       </div> -->
     </div>
   </section>
-  <section class ="section" id = "calorie-tracker">
-    <h3>Calorie Tracker</h3>
+  <section class ="section" id = "biking" >
+    <h3 class = "text-center m-3">Biking Adventure</h3>
+    <div class="container">
+      <div class="mycard mt-3">
+      
+      <div class="card" style="width: 18rem;">
+        <img src="Images/fred-pixlab-OD3iQ1S0-nE-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Winninger -Thurant </h5>
+          <p class="card-text">A thrilling route for the expert fitness enthusiasts.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Distance - 17.7 km</li>
+          <li class="list-group-item">Duration - 59 min</li>
+          <li class="list-group-item"><a href='https://www.google.com/maps/dir/Winninger+Hamm,+56333+Winningen,+Germany/Thurant+Castle,+Burg+Thurant,+56332+Alken,+Germany/@50.2804926,7.4068173,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47be653bf704096d:0x72a848097aae93c4!2m2!1d7.498445!2d50.3153198!1m5!1m1!1s0x47be68ccacc4bafb:0x8dd963340c417a91!2m2!1d7.4528471!2d50.2484142!3e1' class="card-link" target = "_blank" rel="noopener noreferrer">
+            Find your path
+            
+          </a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="mycard">
+        <!-- <h3 class = "text-center" >Biking Adventure</h3> -->
+      
+      <div class="card" style="width: 18rem; top:5px">
+        <img src="Images/fred-pixlab-OD3iQ1S0-nE-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Stauwehr Altwied - Koblenz</h5>
+          <p class="card-text">An easy yet exciting bikeway for the beginners.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Distance - 26.7 km</li>
+          <li class="list-group-item">Duration - 1hr 25min</li>
+          <li class="list-group-item"><a href='https://www.google.com/maps/dir/Stauwehr+Altwied,+Im+Wiedtal+65,+Altwied+56567+Neuwied,+Germany/Rhein-Mosel-Halle,+56068+Koblenz,+Germany/@50.4181627,7.4005958,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47be8b8e23c6f98f:0xe7762aa23ef1a649!2m2!1d7.4685894!2d50.4836526!1m5!1m1!1s0x47be7ca153b73f97:0x229832f252d8360c!2m2!1d7.599246!2d50.3530331!3e1' class="card-link" target = "_blank" rel="noopener noreferrer">
+            Find your path
+            
+          </a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="mycard">
+        <!-- <h3 class = "text-center" >Biking Adventure</h3> -->
+      
+      <div class="card" style="width: 18rem; top: 2px;">
+        <img src="Images/fred-pixlab-OD3iQ1S0-nE-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Koblenzer Kanten-Bad Breisig</h5>
+          <p class="card-text">Buckle Up!! You gotta give it a try.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Distance - 38.2km</li>
+          <li class="list-group-item">Duration - 2hr 29min</li>
+          <li class="list-group-item"><a href='https://www.google.com/maps/dir/Koblenzer+Kanten:+Aussichtsplattform+Rhein-Mosel-Blick,+Greiffenklaustra%C3%9Fe,+Koblenz,+Germany/Bad+Breisig,+Germany/@50.4350206,7.314674,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47be7cec8111a999:0xcd042607cead14e5!2m2!1d7.6170692!2d50.3702516!1m5!1m1!1s0x47bef695102d758f:0x422d4d510dab3c0!2m2!1d7.28973!2d50.5061497!3e1' class="card-link" target = "_blank" rel="noopener noreferrer">
+            Find your path
+            
+          </a></li>
+        </ul>
+      </div>
+      </div>
+      
+    </div>
   </section>
-  <section class ="section" id = "step-counter">
-    <h3>Step Counter</h3>
-  </section>
+
   <section class ="section" id = "news">
-    <h3>Sports News</h3>
+    <h3 class = "text-center">Sports News</h3>
+
+    <div class="container">
+      <blockquote class="embedly-card"><h4><a href="https://www.kicker.de/">Alle News aus dem Fußball und der Welt des Sports</a></h4><p>kicker.de ist das Online-Angebot zum bekannten Fußballmagazin - Topaktuelle News und Livescores aus den deutschen Amateurfußball-Ligen, aus über 20 internationalen Ligen und aus weiteren Sportarten wie Formel 1, Eishockey, Basketball, Handball, Tennis und Olympia.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+      <blockquote class="embedly-card"><h4><a href="https://www.zdf.de/sport/das-aktuelle-sportstudio">das aktuelle sportstudio | ZDF</a></h4><p>Mit dem Bundesliga-Topspiel, weiteren Berichten, Interviews und Analysen zum Spieltag sowie den Highlights aus der Welt des Sports.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+<blockquote class="embedly-card"><h4><a href="https://www.sportschau.de/">Sport-News, Live-Ticker, Videos, Ergebnisse und Tabellen</a></h4><p>Nachrichten, Berichte der Fußball-Bundesliga, Live-Ticker und Ergebnisse, Livestreams sowie das Tor des Monats - das Sport-Angebot der ARD.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+    </div>
+
+   
   </section>
  
-  <section class="contact background">
+  <section class="contact background" id = "contact">
     <h2 class="center-text">Contact Us</h2>
     <div class="form">
       <input class="form-input" type="text" name="name" id = "name" placeholder="Enter your name">
@@ -71,7 +139,7 @@
       <input class="form-input" type="phone" name="phone" id = "phone" placeholder="Enter your phone number">
       <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Give us a feedback"></textarea>
     </div>
-    <button class="btn submit-btn">Submit</button>
+    <button class="btn submit-btn" id = "submit-btn">Submit</button>
   </section>
   <footer>
     Copyright &copy; 2021 - All rights reserved | 
