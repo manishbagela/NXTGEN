@@ -171,14 +171,15 @@ margin: 0 22px;
 #submit-btn{
   position: absolute;
   left: 47%;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: wheat;
+  font-size: 15px;
   /* background: none; */
 }
 #submit-btn:hover{
 
-  background-color: black;
-  color: white;
+  background-color: wheat;
+  color: black;
   /* background: none; */
 }
 footer{
@@ -219,5 +220,6 @@ display: none;
 .embedly-card {
   margin: 10px 10px;
   border: 2px solid black;
+  border-radius: 20px;
   height: 500px;
 }
