@@ -23,13 +23,14 @@
   width: 46%;
   border: 2px solid white;
   border-radius: 50px;
+  margin-top: 15px;
 }
 .navlist{
   /* background-color: black; */
   width: 70%;
   display: flex;
   align-items: center;
-  height: 70px;
+  height: 45px;
 }
 
 .navlist .list-items{
@@ -69,6 +70,7 @@ font-size: 15px;
   background: rgb(0, 0, 0, 0.8) url('../Images/background\ .jpeg');
   background-size: cover;
   background-blend-mode: darken;
+  background-repeat: no-repeat;
 }
 .firstSection{
   height: 700px;
