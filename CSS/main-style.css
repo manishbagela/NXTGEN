@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Sriracha&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-.navbar{
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,19 +15,22 @@
   font-family: 'Sriracha', cursive;
   /* border: 2px solid black; */
 }
-#logo{
+
+#logo {
   width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#logo img{
+
+#logo img {
   width: 46%;
   /* border: 2px solid white; */
   /* border-radius: 50px; */
   margin-top: 15px;
 }
-.navlist{
+
+.navlist {
   /* background-color: black; */
   width: 70%;
   display: flex;
@@ -33,43 +38,50 @@
   height: 45px;
 }
 
-.navlist .list-items{
+.navlist .list-items {
   display: flex;
-  
+
 }
-.list-items{
+
+.list-items {
   margin-left: 2rem;
 }
-.navlist li{
+
+.navlist li {
   list-style: none;
-padding: 12px 39px;
+  padding: 12px 39px;
 }
-.navlist li a{
-text-decoration: none;
-color: black;
-/* border: 2px solid black; */
-border-radius: 22px;
-padding: 9px 14px;
-font-family: 'Sriracha', cursive;
-font-size: 15px;
+
+.navlist li a {
+  text-decoration: none;
+  color: black;
+  /* border: 2px solid black; */
+  border-radius: 22px;
+  padding: 9px 14px;
+  font-family: 'Sriracha', cursive;
+  font-size: 15px;
 }
-.navlist li a:hover{
+
+.navlist li a:hover {
   color: white;
   background-color: black;
 }
-.rightnav{
+
+.rightnav {
   /* background-color: blueviolet; */
   /* background-color: black; */
   width: 30%;
   text-align: right;
 }
-#search{
+
+#search {
   padding: 6px;
   font-size: 20px;
   border: 2px solid black;
   border-radius: 15px;
 }
-.background{
+
+.background {
   /* background:  url('../Images/img-3.jpg');
   width: 50%; */
   background-size: cover;
@@ -77,44 +89,49 @@ font-size: 15px;
   background-repeat: no-repeat;
 }
 
-.firstSection{
+.firstSection {
   height: 100vh;
 }
-.main-box{
+
+.main-box {
   /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 100%;
   margin: auto;
   height: 100%;
   padding-top: 0;
   /* border: 2px solid white; */
 }
-.firsthalf{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-/* border: 2px solid black; */
-margin-top: 2rem;
+
+.firsthalf {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-top: 2rem;
 }
 
 #images {
   display: flex;
   justify-content: space-between;
 }
-img{
+
+img {
   width: 90%;
   height: 90%;
 }
-.sechalf{
-width: 30%;
+
+.sechalf {
+  width: 30%;
 }
-.sechalf img{
+
+.sechalf img {
   width: 140%;
   border: 1px solid white;
   border-radius: 75px;
@@ -122,18 +139,20 @@ width: 30%;
   margin: auto;
   /* border: 2px solid black; */
 }
-.text-big{
+
+.text-big {
   font-size: 40px;
   margin: 35px 0 35px 0;
   font-family: 'Lexend Mega', sans-serif;
   width: 40%;
 }
 
-.text-small{
-font-size: 30px;
-font-family: 'Sriracha', cursive;
+.text-small {
+  font-size: 30px;
+  font-family: 'Sriracha', cursive;
 }
-.btn{
+
+.btn {
   padding: 8px 20px;
   margin: 20px 0px;
   border: 2px solid white;
@@ -141,15 +160,18 @@ font-family: 'Sriracha', cursive;
   font-size: 20px;
   cursor: pointer;
 }
-.bt2{
-margin: 0 22px;
+
+.bt2 {
+  margin: 0 22px;
 }
-.btn-small{
+
+.btn-small {
   margin: 12px 12px;
   vertical-align: middle;
   padding: 6px 10px;
 }
-.section{
+
+.section {
   height: 600px;
   /* display: flex;
   justify-content: space-evenly;
@@ -157,40 +179,48 @@ margin: 0 22px;
   max-width: 100%;
   margin: auto;
 }
-.left{
+
+.left {
   flex-direction: row-reverse;
 }
-.paras{
+
+.paras {
   padding: 12px 62px;
 }
-.thumbnail img{
+
+.thumbnail img {
   width: 85%;
   border-radius: 12px;
   border: 2px solid black;
 }
-.contact{
+
+.contact {
   color: white;
   height: 800px;
   /* background-color: black; */
 }
-.contact h2{
+
+.contact h2 {
   text-align: center;
   padding: 22px;
   font-size: 45px;
 }
-.form{
+
+.form {
   max-width: 1000px;
   margin: auto;
   background-color: white;
 }
-.form-input{
+
+.form-input {
   margin: 20px 0;
   padding: 5px 3px;
   width: 100%;
   font-size: 20px;
   border-radius: 6px;
 }
-#submit-btn{
+
+#submit-btn {
   /* position: absolute; */
   left: 47%;
   background-color: black;
@@ -199,13 +229,15 @@ margin: 0 22px;
   width: 10%;
   /* background: none; */
 }
-#submit-btn:hover{
+
+#submit-btn:hover {
 
   background-color: wheat;
   color: black;
   /* background: none; */
 }
-footer{
+
+footer {
   height: 20px;
   padding: 10px 0 30px 0;
   background-color: black;
@@ -215,16 +247,18 @@ footer{
   font-size: 20px;
   justify-content: center;
 }
-.burger{
-border: 2px solid white;
-border-radius: 5px;
-position: absolute;
-cursor: pointer;
-right: 5%;
-top: 15px;
-display: none;
+
+.burger {
+  border: 2px solid white;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  display: none;
 }
-.line{
+
+.line {
   width: 33px;
   background-color: white;
   height: 3px;
@@ -247,14 +281,15 @@ display: none;
   height: 500px;
 }
 
-#biking {
+#section {
   background-color: #B8D4D5ff;
   display: flex;
   justify-content: center;
   align-items: center;
   /* flex-direction: column; */
 }
-#product-description{
+
+#product-description {
   display: flex;
   flex-direction: column;
   /* border: 2px solid black; */
@@ -262,21 +297,46 @@ display: none;
   width: 40%;
 }
 
-#bricks, #blocks{
+#bricks,
+#blocks {
   display: flex;
   width: 15rem;
 }
-.card-body{
+
+.card-body {
   background-color: #95BBC6ff;
 
 }
-.card-title, .card-text{
+
+.card-title,
+.card-text {
   color: white;
 }
 
-#bricks-image, #blocks-image {
+#bricks-image,
+#blocks-image {
   height: 100%;
   width: 100%;
 }
 
+#container {
+  margin-top: 7rem;
+}
 
+#reality {
+  background-color: #B8D4D5ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#reality>h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#reality>img {
+  width: 20%;
+  height: 30%;
+}

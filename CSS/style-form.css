@@ -8320,5 +8320,14 @@ textarea.form-control {
   background: #B8D4D5ff;
 }
 #get-in-touch{
-  background: #01d28e  !important;
+  background: #95BBC6ff  !important;
+}
+#submit-btn{
+  background-color: #95BBC6ff;
+  width: auto;
+  color: white;
+}
+#submit-btn:hover{
+  background-color: white;
+  color: #95BBC6ff;
 }
