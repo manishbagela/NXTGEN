@@ -8319,6 +8319,9 @@ textarea.form-control {
 #contact{
   background: #B8D4D5ff;
 }
+#contact-form{
+  width: 100%;
+}
 #get-in-touch{
   background: #95BBC6ff  !important;
 }
@@ -8330,4 +8333,11 @@ textarea.form-control {
 #submit-btn:hover{
   background-color: white;
   color: #95BBC6ff;
+}
+
+.contact-underline{
+  margin-left: 7rem;
+  height: 5px;
+  width: 300px;
+  background-color: #95BBC6ff;
 }
